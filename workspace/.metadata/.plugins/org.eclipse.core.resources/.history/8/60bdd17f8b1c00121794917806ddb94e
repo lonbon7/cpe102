@@ -1,0 +1,28 @@
+
+public class BadClass
+{
+   public void nullPointerMethod()
+   {
+      BadClass b1 = null;
+      BadClass b2 = null;
+      
+      b1 = b2;      
+   }
+   
+   public void classCastMethod()
+   {
+      Object x = new Integer(0);
+      System.out.println((String)x);
+   }
+   
+   public void arrayIndexMethod()
+   {
+      int i, sum = 0;
+      int[] array = new int[10];
+      
+      for(i = -1; i < array.length; i++)
+      {
+         sum += array[i];
+      }
+   }
+}

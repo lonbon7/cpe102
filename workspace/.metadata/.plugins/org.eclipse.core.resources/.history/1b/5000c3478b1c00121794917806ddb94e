@@ -1,0 +1,11 @@
+
+public class BadClassDriver
+{
+   public static void main(String[] args)
+   {
+      BadClass b1 = new BadClass();
+      b1.nullPointerMethod();
+      b1.classCastMethod();
+      b1.arrayIndexMethod();      
+   }
+}

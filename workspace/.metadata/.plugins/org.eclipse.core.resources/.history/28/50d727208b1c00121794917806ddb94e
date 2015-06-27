@@ -1,0 +1,9 @@
+
+public class BadClassDriver
+{
+   public static void(String[] args)
+   {
+      nullPointMethod();
+      
+   }
+}

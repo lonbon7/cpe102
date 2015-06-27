@@ -1,0 +1,15 @@
+
+public class BadClass
+{
+   public BadClass nullPointerMethod()
+   {
+      BadClass b1 = null;
+      return b1;
+   }
+   
+   public void classCastMethod()
+   {
+      BadClass b1 = new BadClass();
+      Sytstem.out.println((String)b1);
+   }
+}

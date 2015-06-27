@@ -1,0 +1,9 @@
+
+public class BadClass
+{
+   public BadClass nullPointerMethod()
+   {
+      BadClass b1 = null;
+      return b1;
+   }
+}
